@@ -211,19 +211,6 @@ mapComponentsRouter,
   }
   ]
 },
-
-{
-  path: '/tab',
-  component: Layout,
-  children: [{
-    path: 'index',
-    component: () =>
-      import ('@/views/tab/index'),
-    name: 'Tab',
-    meta: { title: 'tab', icon: 'tab' }
-  }]
-},
-
 {
   path: '/error',
   component: Layout,
