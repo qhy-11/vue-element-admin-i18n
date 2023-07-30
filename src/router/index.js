@@ -348,15 +348,6 @@ tableRouter,
   }]
 },
 
-{
-  path: 'external-link',
-  component: Layout,
-  children: [{
-    path: 'https://github.com/PanJiaChen/vue-element-admin',
-    meta: { title: 'externalLink', icon: 'link' }
-  }]
-},
-
 // 404 page must be placed at the end !!!
 { path: '*', redirect: '/404', hidden: true }
 ]
