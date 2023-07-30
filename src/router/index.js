@@ -11,6 +11,7 @@ import componentsRouter from './modules/components'
 import chartsRouter from './modules/charts'
 import tableRouter from './modules/table'
 import nestedRouter from './modules/nested'
+import mapComponentsRouter from './modules/mapComponents'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
@@ -176,7 +177,7 @@ componentsRouter,
 chartsRouter,
 nestedRouter,
 tableRouter,
-
+mapComponentsRouter,
 {
   path: '/example',
   component: Layout,

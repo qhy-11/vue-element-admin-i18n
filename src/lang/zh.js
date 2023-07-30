@@ -61,7 +61,8 @@ export default {
     theme: '换肤',
     clipboardDemo: 'Clipboard',
     externalLink: '外链',
-    profile: '个人中心'
+    profile: '个人中心',
+    mapComponents: '地图组件'
   },
   navbar: {
     dashboard: '首页',
