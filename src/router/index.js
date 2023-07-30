@@ -302,25 +302,6 @@ mapComponentsRouter,
   ]
 },
 {
-  path: '/pdf',
-  component: Layout,
-  redirect: '/pdf/index',
-  children: [{
-    path: 'index',
-    component: () =>
-      import ('@/views/pdf/index'),
-    name: 'PDF',
-    meta: { title: 'pdf', icon: 'pdf' }
-  }]
-},
-{
-  path: '/pdf/download',
-  component: () =>
-    import ('@/views/pdf/download'),
-  hidden: true
-},
-
-{
   path: '/theme',
   component: Layout,
   children: [{
