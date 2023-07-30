@@ -349,18 +349,6 @@ tableRouter,
 },
 
 {
-  path: '/clipboard',
-  component: Layout,
-  children: [{
-    path: 'index',
-    component: () =>
-      import ('@/views/clipboard/index'),
-    name: 'ClipboardDemo',
-    meta: { title: 'clipboardDemo', icon: 'clipboard' }
-  }]
-},
-
-{
   path: 'external-link',
   component: Layout,
   children: [{
